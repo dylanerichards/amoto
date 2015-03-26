@@ -12,8 +12,7 @@ $(document).ready(function() {
     }
   }
 
-  $("form").submit(function(e) {
-    e.preventDefault();
+  $("form").submit(function() {
 
     if(validateEmail($("#email").val()) === false) {
       alert("Please enter a valid email address.");
