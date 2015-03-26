@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
   }
 
-  $("#submit").click(function(e) {
+  $("form").submit(function(e) {
     e.preventDefault();
 
     if(validateEmail($("#email").val()) === false) {
