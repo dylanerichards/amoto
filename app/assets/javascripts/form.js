@@ -15,12 +15,13 @@ $(document).ready(function() {
   $("form").submit(function() {
 
     if(validateEmail($("#email").val()) === false) {
-      alert("Please enter a valid email address.");
+      $(".errors").text("Please enter a valid email address.");
       return false;
     };
 
     if($("#password").val() == "") {
-      alert("Password cannot be blank");
+      // alert("Password cannot be blank");
+      $(".errors").text("Password cannot be blank");
       return false;
     };
 
