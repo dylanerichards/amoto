@@ -1,3 +1,9 @@
+form {
+  width: 300px;
+  border: 1px solid #999;
+  border-radius: 2px;
+}
+
 input {
   display: block;
   margin-bottom: 15px;
@@ -8,4 +14,31 @@ input {
   top: 50%;
   right: 0;
   left: 0;
+}
+
+#email, #password {
+  width: 250px;
+}
+
+#submit {
+  position: relative;
+  left: 105px;
+
+  border-radius: 40px 40px 40px 40px;
+  border: 1px solid #45807A;
+}
+
+.form-header {
+  padding: 10px;
+}
+
+.form-body {
+  padding-top: 15px;
+  border-top: 1px solid #999;
+}
+
+.shadow {
+  -moz-box-shadow:    1px 1px 1px 1px #ccc;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow:         1px 1px 1px 1px #ccc;
 }
