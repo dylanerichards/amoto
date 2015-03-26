@@ -35,14 +35,18 @@ input {
 }
 
 .remember {
-  display: inline;
-}
-
-.checkbox {
   position: relative;
-  right: 28px;
-  bottom: 30px;
-  font-size: .8em;
+  bottom: 25px;
+  right: 48px;
+  border-radius: -1;
+
+  label, #check {
+    display: inline;
+  }
+
+  label {
+    font-size: 10px;
+  }
 }
 
 .form-header {
