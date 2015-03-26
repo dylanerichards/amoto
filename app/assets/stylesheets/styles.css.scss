@@ -69,3 +69,11 @@ input {
   -webkit-box-shadow: 1px 1px 1px 0.25px #ccc;
   box-shadow:         1px 1px 1px 0.25px #ccc;
 }
+
+.description {
+  width: 500px;
+
+  .emphasis {
+    font-style: italic;
+  }
+}
