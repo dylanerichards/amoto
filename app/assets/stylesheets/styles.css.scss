@@ -1,5 +1,10 @@
+body {
+  font-family: "Helvetica";
+}
+
 form {
   width: 300px;
+  height: 175px;
   border: 1px solid #999;
   border-radius: 2px;
 }
@@ -22,13 +27,26 @@ input {
 
 #submit {
   position: relative;
+  top: 5px;
   left: 105px;
 
   border-radius: 40px 40px 40px 40px;
-  border: 1px solid #45807A;
+  border: 1px solid #a9e9e9;
+}
+
+.remember {
+  display: inline;
+}
+
+.checkbox {
+  position: relative;
+  right: 28px;
+  bottom: 30px;
+  font-size: .8em;
 }
 
 .form-header {
+  background-color: #a9e9e9;
   padding: 10px;
 }
 
@@ -38,7 +56,7 @@ input {
 }
 
 .shadow {
-  -moz-box-shadow:    1px 1px 1px 1px #ccc;
-  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
-  box-shadow:         1px 1px 1px 1px #ccc;
+  -moz-box-shadow:    1px 1px 1px 0.25px #ccc;
+  -webkit-box-shadow: 1px 1px 1px 0.25px #ccc;
+  box-shadow:         1px 1px 1px 0.25px #ccc;
 }
